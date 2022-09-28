@@ -24,8 +24,8 @@ const LiteralTypes5 = () => (
     </a>
     <Text fontSize="20px">
       There’s one more kind of literal type: boolean literals. There are only
-      two boolean literal types, and as you might guess, they are the types <code>true</code>
-      and <code>false</code>. The type <code>boolean</code> itself is actually just an alias for the union
+      two boolean literal types, and as you might guess, they are the types <code>true</code>{" "}
+      and <code>false</code>. The type <code>boolean</code> itself is actually just an alias for the union{" "}
       <code>true | false</code>.
     </Text>
     <CodePane language="typescript">

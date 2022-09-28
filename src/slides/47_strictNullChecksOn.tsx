@@ -8,7 +8,7 @@ const StrictNullChecksOn = () => (
     <Text fontSize="30px">
       With strictNullChecks <em>on</em>, when a value is <code>null</code> or{" "}
       <code>undefined</code>, you will need to test for those values before
-      using methods or properties on that value. Just like checking for
+      using methods or properties on that value. Just like checking for{" "}
       <code>undefined</code> before using an optional property, we can use{" "}
       <em>narrowing</em> to check for values that might be <code>null</code>:
     </Text>

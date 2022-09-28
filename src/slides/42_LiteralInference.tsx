@@ -20,7 +20,7 @@ const LiteralInference = () => (
     <Text fontSize="30px">
       TypeScript doesn’t assume the assignment of <code>1</code> to a field which previously
       had <code>0</code> is an error. Another way of saying this is that <code>obj.counter</code> must
-      have the type <code>number</code>, not <code>0</code>, because types are used to determine both
+      have the type <code>number</code>, not <code>0</code>, because types are used to determine both{" "}
       <em>reading</em> and <em>writing</em> behavior.
     </Text>
   </Slide>

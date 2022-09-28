@@ -60,6 +60,7 @@ abstract class Component {
 }
 
 class AppComponent extends Component {
+  // eslint-disable-next-line react/require-render-return
   render(): void {
     console.log('Component on render')
   }
