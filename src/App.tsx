@@ -55,6 +55,8 @@ import Enums from "./slides/51_Enums";
 import NumericEnums from "./slides/52_NumericEnums";
 import UsingEnum from "./slides/53_UsingEnum";
 import StringEnums from "./slides/54_StringEnums";
+import Questions from "./slides/55_Questions";
+import References from "./slides/56_References";
 
 const template = () => (
   <FlexBox
@@ -129,6 +131,8 @@ function App() {
       <NumericEnums />
       <UsingEnum />
       <StringEnums />
+      <Questions />
+      <References />
     </Deck>
   );
 }
