@@ -1,13 +1,25 @@
 {
   "compilerOptions": {
+
     "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+    // ar galima importuoti js failus i ts failus
     "allowJs": true,
+    /**
+      * Skip type checking of declaration files.
+
+      * This can save time during compilation at the expense of type-system accuracy.
+      * For example, two libraries could define two copies of the same type in an inconsistent way.
+      * Rather than doing a full check of all d.ts files, 
+      * TypeScript will type check the code you specifically refer to in your app’s source code.
+      */
+    // praleisti deklaraciniu failu tikrinima is node_modules
     "skipLibCheck": true,
+    // esModuleInterop reikalingas, kad veiktu importavimas is node_modules
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -17,6 +29,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "noEmit": true,
+    // nesukurti js failu
+    "noEmit": false,
   }
 }

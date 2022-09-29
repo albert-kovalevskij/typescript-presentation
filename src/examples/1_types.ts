@@ -14,7 +14,7 @@ const numberArray2: Array<number> = [1, 1, 2, 3, 5, 8, 13]
 const words: string[] = ['Hello', 'Typescript']
 
 // Tuple
-const contact: [string, number] = ['Vladilen', 1234567]
+const contact: [string, number] = ['name', 1234567]
 
 // Any
 let variable: any = 42
@@ -26,7 +26,7 @@ variable = []
 function sayMyName(name: string): void {
   console.log(name)
 }
-sayMyName('Хайзенберг')
+sayMyName('Albert')
 
 // Never
 function throwError(message: string): never {
