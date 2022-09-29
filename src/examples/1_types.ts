@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 const isFetching: boolean = true
 const isLoading: boolean = false
 
@@ -50,3 +51,5 @@ const id2: ID = '1234'
 // const id3: ID = true
 
 type SomeType = string | null | undefined
+
+type SomeType1 = string | null | undefined | never

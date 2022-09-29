@@ -26,6 +26,7 @@ const NonNullAssertionOperator = () => (
       of your code, so it’s important to only use <code>!</code> when you know that the value
       can’t be <code>null</code> or <code>undefined</code>.
     </Text>
+    <a href="https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions">Example</a>
   </Slide>
 );
 

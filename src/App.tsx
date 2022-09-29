@@ -57,6 +57,7 @@ import UsingEnum from "./slides/53_UsingEnum";
 import StringEnums from "./slides/54_StringEnums";
 import Questions from "./slides/55_Questions";
 import References from "./slides/56_References";
+import FunctionTypeExpressions from "./slides/14.1_FuntionTypeExpressions";
 
 const template = () => (
   <FlexBox
@@ -78,8 +79,8 @@ function App() {
   return (
     <Deck theme={customTheme} template={template}>
       <Slide01 />
-      <Slide02 />
       <Slide03 />
+      <Slide02 />
       <Slide04 />
       <Slide05 />
       <Slide06 />
@@ -91,6 +92,7 @@ function App() {
       <Functions />
       <ParameterTypeAnnotations />
       <ReturnTypeAnnotations />
+      <FunctionTypeExpressions />
       <ObjectTypes />
       <ObjectTypeExample />
       <OptionalProperties />
