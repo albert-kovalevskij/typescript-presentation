@@ -30,6 +30,6 @@
     "resolveJsonModule": true,
     "isolatedModules": false,
     // nesukurti js failu
-    "noEmit": false,
+    "noEmit": true,
   }
 }
